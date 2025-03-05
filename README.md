@@ -1,5 +1,10 @@
 # PyLibDemo
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Tests](https://github.com/funcman/pylibdemo/actions/workflows/test.yml/badge.svg)](https://github.com/funcman/pylibdemo/actions/workflows/test.yml)
+[![Stars](https://img.shields.io/github/stars/funcman/pylibdemo?style=flat)](https://github.com/funcman/pylibdemo/stargazers)
+[![Forks](https://img.shields.io/github/forks/funcman/pylibdemo?style=flat)](https://github.com/funcman/pylibdemo/network/members)
+
 [English](README.md) | [中文](README.zh.md)
 
 A Cursor-written project demonstrating how to call C libraries from Python. This project includes a simple C library that implements integer addition functionality and provides a Python interface.

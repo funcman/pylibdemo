@@ -1,5 +1,10 @@
 # PyLibDemo
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Tests](https://github.com/funcman/pylibdemo/actions/workflows/test.yml/badge.svg)](https://github.com/funcman/pylibdemo/actions/workflows/test.yml)
+[![Stars](https://img.shields.io/github/stars/funcman/pylibdemo?style=flat)](https://github.com/funcman/pylibdemo/stargazers)
+[![Forks](https://img.shields.io/github/forks/funcman/pylibdemo?style=flat)](https://github.com/funcman/pylibdemo/network/members)
+
 [English](README.md) | [中文](README.zh.md)
 
 一个Cursor编写的工程，演示如何在Python中调用C库的示例项目。该项目包含一个简单的C库，实现了整数加法功能，并提供Python接口。
