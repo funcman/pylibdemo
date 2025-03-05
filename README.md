@@ -1,60 +1,62 @@
 # PyLibDemo
 
-一个演示如何在Python中调用C库的示例项目。该项目包含一个简单的C库，实现了整数加法功能，并提供Python接口。
+[English](README.md) | [中文](README.zh.md)
 
-## 功能特性
+A Cursor-written project demonstrating how to call C libraries from Python. This project includes a simple C library that implements integer addition functionality and provides a Python interface.
 
-- C库实现的整数加法函数
-- Python封装接口
-- 跨平台支持（Windows、Linux、macOS）
-- 使用xmake构建C库
+## Features
 
-## 安装要求
+- C library implementation of integer addition function
+- Python wrapper interface
+- Cross-platform support (Windows, Linux, macOS)
+- Using xmake as C library build tool
+
+## Requirements
 
 - Python 3.6+
-- xmake (用于构建C库)
-- C编译器 (如GCC、MSVC、Clang)
+- xmake (for building C library)
+- C compiler (GCC, MSVC, or Clang)
 
-## 安装方法
+## Installation
 
 ```bash
 pip install pylibdemo
 ```
 
-## 从源码安装
+## Install from Source
 
-1. 克隆仓库：
+1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pylibdemo.git
+git clone https://github.com/funcman/pylibdemo.git
 cd pylibdemo
 ```
 
-2. 安装包：
+2. Install the package:
 ```bash
 pip install .
 ```
 
-## 单独编译C库
+## Building C Library Separately
 
-如果你只想编译C库，可以执行：
+If you only want to build the C library:
 
 ```bash
 cd src/clib
 xmake
 ```
 
-## 使用示例
+## Usage Example
 
 ```python
 from pylibdemo import add_numbers, accumulate_n_times
 
-# 使用C库的加法函数
-result = add_numbers(5, 3)  # 返回 8
+# Using C library addition function
+result = add_numbers(5, 3)  # returns 8
 
-# 使用Python封装的累加函数
-sum_result = accumulate_n_times(2, 3)  # 返回 6 (2+2+2)
+# Using Python wrapper accumulation function
+sum_result = accumulate_n_times(2, 3)  # returns 6 (2+2+2)
 ```
 
-## 许可证
+## License
 
 MIT License 
